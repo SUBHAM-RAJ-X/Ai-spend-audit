@@ -1,0 +1,19 @@
+/* Tailwind CSS - PostCSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Custom component styles can be added here */
+}
+
+@layer utilities {
+  /* Custom utility styles can be added here */
+}
